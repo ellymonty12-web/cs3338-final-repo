@@ -15,3 +15,55 @@ People with memory difficulties may need help remembering important information 
 ## Jira link
 
 link
+
+## Objectives Breakdown
+
+### Snapshot 1
+- Create GitHub repository structure
+- Add disclaimer and README
+- Draft initial SRS and SDD
+- Draft initial design specification
+- Create workflow diagram
+- Create Docker Compose draft
+- Create basic app structure
+
+### Snapshot 2
+- Add memory creation workflow
+- Add memory templates
+- Add form validation planning
+- Update SRS, SDD, user manual, and design spec
+- Create Snapshot 2 TestRail report
+
+### Snapshot 3
+- Add memory search and filters
+- Add contacts feature
+- Add caregiver support planning
+- Update documents and workflow diagram
+- Create Snapshot 3 TestRail report
+
+### Snapshot 4
+- Add final documentation updates
+- Add accessibility and dark mode planning
+- Add final TestRail report
+- Add future work section
+- Prepare final submission
+
+## Technology Stack
+
+- React
+- Bootstrap
+- Firebase Authentication
+- Firestore Database
+- Firebase Hosting
+- Docker Compose
+- Jira
+- TestRail
+- LaTeX
+
+## How to download/access
+
+1. Clone this repository.
+2. Go into the `app` folder.
+3. Install dependencies.
+4. Run the development server.
+5. Open the local development URL in a browser.
