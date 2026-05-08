@@ -1,0 +1,20 @@
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+
+# LaTeX temporary files
+*.aux
+*.out
+*.toc
+*.synctex.gz
+
+# Environment files
+.env
+.env.local
