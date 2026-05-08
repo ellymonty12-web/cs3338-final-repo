@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  frontend:
+    image: node:20
+    container_name: memory-companion-frontend
+    working_dir: /app
+    volumes:
+      - ./src:/app
+    ports:
+      - "3000:3000"
+    command: sh -c "echo 'Planned React frontend service for coursework simulation'"
+
+  firebase-emulator:
+    image: node:20
+    container_name: memory-companion-firebase-emulator
+    working_dir: /firebase
+    ports:
+      - "4000:4000"
+      - "8080:8080"
+      - "9099:9099"
+    command: sh -c "echo 'Planned Firebase emulator service for coursework simulation'"
