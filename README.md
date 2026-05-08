@@ -6,7 +6,7 @@ This repository is for a practice project only and serves as a simulation, not a
 
 ## Project Overview
 
-This is mock software development project inspired by Want2Remember on the ascent web site. This would web app that helps users with memory problems store important information, reminders, contacts, appointments, tasks, medication information, and other daily living information in one place. The repository is used to simulate the devolpment process, documentation, project management, testing plans, use of Docker, diagrams and snapshots which would be used in such a project.
+This is a mock software development project inspired by Want2Remember on the Ascent web site. This would be a web app that helps users with memory problems store important information, reminders, contacts, appointments, tasks, medication information, and other daily living information in one place. The repository is used to simulate the development process, documentation, project management, testing plans, use of Docker, diagrams and snapshots which would be used in such a project.
 
 ## Why this software matters
 
