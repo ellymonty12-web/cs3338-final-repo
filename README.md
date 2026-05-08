@@ -59,7 +59,6 @@ link
 
 ## Repository Structure
 
-```txt
 assets/                 Diagrams and screenshots
 assets/diagrams/        Workflow and architecture diagrams
 assets/snapshot1/       Snapshot 1 screenshots
@@ -67,7 +66,7 @@ assets/snapshot2/       Snapshot 2 screenshots
 assets/snapshot3/       Snapshot 3 screenshots
 assets/snapshot4/       Snapshot 4 screenshots
 
-docs/                   Formal project documents
+docs/                   Project documents
 docs/sdd/               Software Design Document
 docs/srs/               Software Requirements Specification
 docs/design-spec/       Design Specification
