@@ -18,40 +18,37 @@ link
 
 ## Objectives Breakdown
 
-### Snapshot 1
-- Create GitHub repository structure
-- Add disclaimer and README
+### Snapshot 1: Start
+- Create repository structure
+- Add README and disclaimer
 - Draft initial SRS and SDD
-- Draft initial design specification
+- Draft design specification
 - Create workflow diagram
-- Create Docker Compose draft
-- Create basic app structure
+- Create Docker Compose file
+- Create Jira Sprint 1 tasks
 
-### Snapshot 2
-- Add memory creation workflow
-- Add memory templates
-- Add form validation planning
-- Update SRS, SDD, user manual, and design spec
+### Snapshot 2: Checkpoint 2
+- Plan memory creation workflow
+- Plan memory templates
+- Update SRS, SDD, design spec, and user manual
 - Create Snapshot 2 TestRail report
 
-### Snapshot 3
-- Add memory search and filters
-- Add contacts feature
-- Add caregiver support planning
-- Update documents and workflow diagram
+### Snapshot 3: Checkpoint 3
+- Plan memory search and filters
+- Plan contacts feature
+- Plan caregiver support feature
+- Update documents
 - Create Snapshot 3 TestRail report
 
-### Snapshot 4
-- Add final documentation updates
-- Add accessibility and dark mode planning
-- Add final TestRail report
-- Add future work section
+### Snapshot 4: Original Due Date
+- Finalize documentation
+- Add final reflection and future work
+- Create Snapshot 4 TestRail report
 - Prepare final submission
 
-## Technology Stack
+## Planned Technology Stack
 
 - React
-- Bootstrap
 - Firebase Authentication
 - Firestore Database
 - Firebase Hosting
@@ -60,10 +57,23 @@ link
 - TestRail
 - LaTeX
 
-## How to download/access
+## Repository Structure
 
-1. Clone this repository.
-2. Go into the `app` folder.
-3. Install dependencies.
-4. Run the development server.
-5. Open the local development URL in a browser.
+```txt
+assets/                 Diagrams and screenshots
+assets/diagrams/        Workflow and architecture diagrams
+assets/snapshot1/       Snapshot 1 screenshots
+assets/snapshot2/       Snapshot 2 screenshots
+assets/snapshot3/       Snapshot 3 screenshots
+assets/snapshot4/       Snapshot 4 screenshots
+
+docs/                   Formal project documents
+docs/sdd/               Software Design Document
+docs/srs/               Software Requirements Specification
+docs/design-spec/       Design Specification
+docs/user-manual/       User Manual
+docs/snapshots/         Snapshot objective and reflection documents
+docs/testrail/          TestRail reports
+
+project-management/     Jira task summaries
+src/                    Placeholder folder for planned source code
