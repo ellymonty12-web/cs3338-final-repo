@@ -60,19 +60,19 @@ link
 ## Repository Structure
 
 - assets/:                 Diagrams and screenshots
-assets/diagrams/        Workflow and architecture diagrams
-assets/snapshot1/       Snapshot 1 screenshots
-assets/snapshot2/       Snapshot 2 screenshots
-assets/snapshot3/       Snapshot 3 screenshots
-assets/snapshot4/       Snapshot 4 screenshots
+- assets/diagrams/:        Workflow and architecture diagrams
+- assets/snapshot1/:       Snapshot 1 screenshots
+- assets/snapshot2/:       Snapshot 2 screenshots
+- assets/snapshot3/:       Snapshot 3 screenshots
+- assets/snapshot4/:       Snapshot 4 screenshots
 
-docs/                   Project documents
-docs/sdd/               Software Design Document
-docs/srs/               Software Requirements Specification
-docs/design-spec/       Design Specification
-docs/user-manual/       User Manual
-docs/snapshots/         Snapshot objective and reflection documents
-docs/testrail/          TestRail reports
+- docs/:                   Project documents
+- docs/sdd/:               Software Design Document
+- docs/srs/:               Software Requirements Specification
+- docs/design-spec/:       Design Specification
+- docs/user-manual/:       User Manual
+- docs/snapshots/:         Snapshot objective and reflection documents
+- docs/testrail/:          TestRail reports
 
-project-management/     Jira task summaries
-src/                    Placeholder folder for planned source code
+- project-management/:     Jira task summaries
+- src/:                    Placeholder folder for planned source code
