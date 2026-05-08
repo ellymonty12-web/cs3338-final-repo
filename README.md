@@ -59,7 +59,7 @@ link
 
 ## Repository Structure
 
-assets/                 Diagrams and screenshots
+- assets/:                 Diagrams and screenshots
 assets/diagrams/        Workflow and architecture diagrams
 assets/snapshot1/       Snapshot 1 screenshots
 assets/snapshot2/       Snapshot 2 screenshots
