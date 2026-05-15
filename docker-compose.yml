@@ -1,10 +1,21 @@
 # Snapshot 2 update:
-# The frontend service is planned to include pages for memory creation and template selection.
-# The Firebase/backend service is planned to store memory entries and template categories.
+# The frontend service is planned to include pages for memory creation and
+# template selection.
+# The Firebase/backend service is planned to store memory entries and template
+# categories.
 
 # Snapshot 3 update:
-# The simulated frontend now includes planned Contacts, Contact Details, Search, and Filter pages.
-# The simulated Firebase/backend service now includes planned storage for contacts and contact-to-memory relationships.
+# The simulated frontend now includes planned Contacts, Contact Details,
+# Search, and Filter pages.
+# The simulated Firebase/backend service now includes planned storage for
+# contacts and contact-to-memory relationships.
+
+# Snapshot 4 update:
+# The simulated system now includes final planning for reminder views,
+# settings/preferences, and complete workflow support across the frontend,
+# mobile, and backend services.
+# The Firebase/backend service is planned to support authentication, memories,
+# templates, contacts, reminders, settings, and linked search/filter data.
 
 version: "3.8"
 
@@ -15,15 +26,27 @@ services:
     working_dir: /app
     volumes:
       - ./src:/app
-    command: ["echo", "Simulated React frontend with memory creation, template selection, contacts, and search pages"]
+    command:
+      [
+        "echo",
+        "Simulated React frontend with memory creation, template selection, contacts, contact details, search, filter, reminders, and settings pages",
+      ]
 
   mobile:
     image: node:20
     container_name: want2remember_mobile_simulation
     working_dir: /app
-    command: ["echo", "Simulated React Native mobile service"]
+    command:
+      [
+        "echo",
+        "Simulated React Native mobile service with planned access to memories, contacts, reminders, search, and settings",
+      ]
 
   firebase:
     image: node:20
     container_name: want2remember_firebase_simulation
-    command: ["echo", "Simulated Firebase backend for authentication, memory storage, contacts, and search support"]
+    command:
+      [
+        "echo",
+        "Simulated Firebase backend for authentication, memory storage, templates, contacts, reminders, settings, and search/filter support",
+      ]

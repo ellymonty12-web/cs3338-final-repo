@@ -1,0 +1,131 @@
+/home/dave/code-stuff/cs3338-final-repo/docs/Software_Design_Document/SDD_v3.tex\documentclass{article}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{hyperref}
+
+\title{Software Design Document\\Final Project}
+\author{Elvis Montiel, David Montiel, Steven Mayorquin, Vincent Lozano}
+\date{Snapshot 4}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+
+\section{Revision History}
+\begin{longtable}{|p{2cm}|p{3cm}|p{8cm}|}
+\hline
+Version & Date & Description \\ \hline
+1.0 & Snapshot 1 & Initial design document for the simulated project. \\ \hline
+2.0 & Snapshot 2 & Added simulated memory creation and memory template design. \\ \hline
+3.0 & Snapshot 3 & Added simulated contact management and search/filter design. \\ \hline
+4.0 & Snapshot 4 & Finalized the simulated system design, workflow summary, reminder planning, settings planning, and future work notes. \\ \hline
+\end{longtable}
+
+\section{Introduction}
+\subsection{Purpose}
+This document describes the simulated design of the final project for this course. The purpose of the simulated system is to organize memories, reminders, contacts, and daily information for users who need memory support.
+
+\subsection{Intended Audience}
+The intended audience includes the professor for this course and group members for this project.
+
+\subsection{System Overview}
+The simulated system contains a frontend interface, a mobile interface, Firebase-style authentication and storage, and documentation explaining how the system would be developed.
+
+\section{System Architecture}
+The planned architecture contains a React frontend, a React Native mobile interface, Firebase Authentication, and cloud storage.
+
+\section{User Interface}
+The initial simulated interface includes a home page, login page, memory list page, create memory page, contacts page, and search page.
+
+\section{Database Explanation}
+The simulated database stores users, memories, contacts, templates, reminders, and account settings.
+
+\section{Snapshot 2 Design Update: Memory Creation and Templates}
+
+Snapshot 2 adds a simulated memory creation feature. The purpose of this feature is to allow users to create structured memory entries that can store important information such as appointments, contacts, medication notes, tasks, reminders, passwords, and custom notes.
+
+\subsection{Memory Creation Workflow}
+
+The simulated memory creation workflow begins when the user opens the application and logs in. From the home dashboard, the user selects the option to create a new memory. The system then presents template choices. After selecting a template, the user fills in the required fields and saves the memory. The memory would then be stored in the simulated Firebase or Firestore-style database.
+
+\subsection{Memory Templates}
+
+The planned memory templates include simple memory, appointment, medication, task, contact-related memory, password entry, and custom note. These templates help organize information in a consistent way and make the application easier to use for users who need memory support.
+
+\subsection{Updated Architecture}
+
+The architecture now includes a Create Memory page and a Template Selection step between the user dashboard and the simulated database. The frontend or mobile interface sends the completed memory form to the backend storage service.
+
+\section{Snapshot 3 Design Update: Contacts and Search}
+
+Snapshot 3 adds simulated contact management and search/filter functionality. These features support the memory creation feature from Snapshot 2 by allowing users to connect memories to important people and locate saved information more easily.
+
+\subsection{Contact Management Design}
+
+The Contacts feature allows users to store and view important people connected to their memories. A contact may include a name, relationship, phone number, email address, notes, and related memories. This feature is designed to help users remember who people are and how they are connected to saved information.
+
+\subsection{Search and Filter Design}
+
+The Search and Filter feature allows users to locate saved memories by keyword, category, contact, date, or template type. The search feature would be available from the home dashboard and memory list page.
+
+\subsection{Updated Architecture}
+
+The simulated architecture now includes a Contacts page, Contact Details page, Search page, and filtering controls. The frontend or mobile interface sends search requests to the simulated Firebase or Firestore-style database, which returns matching memories or contacts.
+
+\subsection{Contact-to-Memory Relationship}
+
+A saved memory may optionally be linked to one or more contacts. This allows a user to open a contact and view related memories, or open a memory and see the contact connected to it.
+
+\section{Snapshot 4 Final Design Update}
+
+Snapshot 4 finalizes the complete simulated design by summarizing how all planned features work together in the overall system.
+
+\subsection{Reminder Planning Design}
+
+The simulated system includes reminder-related planning for memories such as appointments, medication events, and tasks. Reminder information may include a due date, time, reminder type, and short message. This design supports the idea that a saved memory may later be associated with a reminder event.
+
+\subsection{Settings Design}
+
+The simulated system includes a Settings page where a user may review account preferences, reminder preferences, and general display or accessibility preferences. This is included to show how the planned system could support personalization and usability improvements.
+
+\subsection{Final Workflow Design}
+
+The final workflow begins with user login. After authentication, the user may view memory lists, create new memories using templates, connect memories to contacts, search saved information, apply filters, open contact details, and review reminder-related information. All major data flows connect back to the simulated storage layer.
+
+\subsection{Workflow Diagram Reference}
+
+A workflow diagram is referenced as part of the final project materials to summarize the planned movement between login, dashboard, memory creation, contacts, search, and storage components.
+
+\subsection{Design Completion Summary}
+
+The final simulated design now includes:
+\begin{itemize}
+    \item user login and access flow
+    \item memory creation with templates
+    \item contact management and linked memories
+    \item search and filter support
+    \item reminder planning
+    \item settings and preferences planning
+    \item planned frontend, mobile, authentication, and storage architecture
+\end{itemize}
+
+\subsection{Future Work}
+
+If this were developed as a real application, future work could include accessibility-focused interface design, stronger privacy controls, secure production storage, notification delivery, password protection improvements, and complete mobile deployment.
+
+\section{Glossary}
+\begin{longtable}{|p{3cm}|p{10cm}|}
+\hline
+Term & Meaning \\ \hline
+SDD & Software Design Document \\ \hline
+SRS & Software Requirements Specification \\ \hline
+UI & User Interface \\ \hline
+Firebase & Simulated cloud backend and database service \\ \hline
+Workflow Diagram & A visual summary of how users move through the simulated system \\ \hline
+\end{longtable}
+
+\section{References}
+Want2Remember senior design materials provided for class simulation.
+
+\end{document}
