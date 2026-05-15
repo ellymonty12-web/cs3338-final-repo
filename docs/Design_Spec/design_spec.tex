@@ -3,7 +3,7 @@
 
 \title{Design Specification\\Final Project}
 \author{Elvis Montiel, David Montiel, Steven Mayorquin, Vincent Lozano}
-\date{Snapshot 2}
+\date{Snapshot 3}
 
 \begin{document}
 \maketitle
@@ -22,7 +22,6 @@ Page or Feature & Description \\ \hline
 Home Page & Starting page for the simulated application. \\ \hline
 Login Page & Allows a user to sign in using simulated authentication. \\ \hline
 Memory List Page & Displays saved memories. \\ \hline
-Create Memory Page & Allows a user to create a new memory entry. \\ \hline
 Contacts Page & Displays contacts connected to memories. \\ \hline
 Search Page & Allows the user to search stored information. \\ \hline
 Template Selection Page & Allows the user to choose a structured memory template. \\ \hline
@@ -76,6 +75,37 @@ Task & Task title, due date, priority, notes \\ \hline
 Contact Memory & Contact name, relationship, phone number, notes \\ \hline
 Password Entry & Account name, username, password hint, notes \\ \hline
 Custom Note & Title, category, notes \\ \hline
+\end{longtable}
+
+\section{Snapshot 3 Design Update: Contacts and Search}
+
+Snapshot 3 adds the simulated design for contact management and search/filter functionality.
+
+\subsection{Contacts Page}
+
+The Contacts page displays a list of saved contacts. Each contact may show the contact name, relationship, phone number, and a short note. The user may select a contact to view more information.
+
+\subsection{Contact Details Page}
+
+The Contact Details page displays the full information for one contact. This may include the contact name, relationship, phone number, email address, notes, and related memories.
+
+\subsection{Search Page}
+
+The Search page allows the user to search saved memories by keyword. Search results may include memory title, category, date, template type, and related contact.
+
+\subsection{Filter Controls}
+
+Filter controls allow the user to narrow saved memories by category, date, contact, or template type.
+
+\subsection{Snapshot 3 Page and Feature Additions}
+
+\begin{longtable}{|p{4cm}|p{9cm}|}
+\hline
+Page or Feature & Description \\ \hline
+Contacts Page & Displays saved contacts connected to the user's memories. \\ \hline
+Contact Details Page & Displays detailed information about a selected contact and related memories. \\ \hline
+Search Page & Allows the user to search saved memories by keyword. \\ \hline
+Filter Controls & Allows the user to filter memories by category, date, contact, or template type. \\ \hline
 \end{longtable}
 
 \end{document}

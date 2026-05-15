@@ -42,3 +42,14 @@ GitHub repository: https://github.com/ellymonty12-web/cs3338-final-repo.git
 - Update User Manual with memory creation instructions
 - Create Snapshot 2 Jira tasks and bugs
 - Create Snapshot 2 TestRail report
+
+### Snapshot 3: Checkpoint 2
+
+- Plan contact management feature
+- Plan search and filter functionality
+- Update SRS with contact and search requirements
+- Update SDD with contact and search design
+- Update Design Spec with Contacts and Search pages
+- Update User Manual with contact and search instructions
+- Create Snapshot 3 Jira tasks and bugs
+- Create Snapshot 3 TestRail report

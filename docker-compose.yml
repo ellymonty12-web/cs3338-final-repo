@@ -2,6 +2,10 @@
 # The frontend service is planned to include pages for memory creation and template selection.
 # The Firebase/backend service is planned to store memory entries and template categories.
 
+# Snapshot 3 update:
+# The simulated frontend now includes planned Contacts, Contact Details, Search, and Filter pages.
+# The simulated Firebase/backend service now includes planned storage for contacts and contact-to-memory relationships.
+
 version: "3.8"
 
 services:
@@ -11,7 +15,7 @@ services:
     working_dir: /app
     volumes:
       - ./src:/app
-    command: ["echo", "Simulated React frontend service"]
+    command: ["echo", "Simulated React frontend with memory creation, template selection, contacts, and search pages"]
 
   mobile:
     image: node:20
@@ -22,4 +26,4 @@ services:
   firebase:
     image: node:20
     container_name: want2remember_firebase_simulation
-    command: ["echo", "Simulated Firebase/Firestore backend service"]
+    command: ["echo", "Simulated Firebase backend for authentication, memory storage, contacts, and search support"]
