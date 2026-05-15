@@ -1,0 +1,67 @@
+\documentclass{article}
+\usepackage{longtable}
+\usepackage{hyperref}
+
+\title{Software Requirements Specification\\Final Project}
+\author{Elvis Montiel, David Montiel, Steven Mayorquin, Vincent Lozano}
+\date{Snapshot 2}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+
+\section{Revision History}
+\begin{longtable}{|p{2cm}|p{3cm}|p{8cm}|}
+\hline
+Version & Date & Description \\ \hline
+1.0 & Snapshot 1 & Initial requirements document. \\ \hline
+2.0 & Snapshot 2 & Added memory creation and memory template requirements. \\ \hline
+\end{longtable}
+
+\section{Introduction}
+\subsection{Purpose}
+This document describes the simulated requirements for an application based on Want2Remember from the ascent website.
+
+\subsection{Product Scope}
+The simulated system helps users create, organize, search, and view memories, reminders, tasks, and contacts.
+
+\section{External Interface Requirements}
+\subsection{User Interface}
+The system shall include a home page, login page, memory page, create memory page, contacts page, and search page.
+
+\subsection{Software Interfaces}
+The simulated system shall use React, React Native, Firebase Authentication, Firestore-style storage, Jira, TestRail, Docker Compose, and GitHub.
+
+\section{Functional Requirements}
+\begin{longtable}{|p{3cm}|p{10cm}|}
+\hline
+Requirement ID & Requirement \\ \hline
+FR-1 & The system shall allow users to log in. \\ \hline
+FR-2 & The system shall allow users to view saved memories. \\ \hline
+FR-3 & The system shall allow users to create new memory entries. \\ \hline
+FR-4 & The system shall allow users to view contacts. \\ \hline
+FR-5 & The system shall allow users to search stored information. \\ \hline
+FR-6 & The system shall allow users to start creating a new memory entry. \\ \hline
+FR-7 & The system shall allow users to select a memory template before creating a memory. \\ \hline
+FR-8 & The system shall provide template options for appointments, medication notes, tasks, contacts, passwords, and custom notes. \\ \hline
+FR-9 & The system shall allow users to save a completed memory entry. \\ \hline
+FR-10 & The system shall organize saved memories by category or template type. \\ \hline
+\end{longtable}
+
+\section{Legal and Ethical Considerations}
+The simulated system may involve sensitive personal information. The design should consider privacy, consent, secure storage, and responsible handling of user data.
+
+\subsection{Snapshot 2 Privacy Update}
+
+Memory entries may contain sensitive personal information. The simulated system should consider privacy, user consent, secure authentication, and restricted access to saved memories.
+
+\section{Glossary}
+\begin{longtable}{|p{3cm}|p{10cm}|}
+\hline
+Term & Meaning \\ \hline
+SRS & Software Requirements Specification \\ \hline
+FR & Functional Requirement \\ \hline
+\end{longtable}
+
+\end{document}

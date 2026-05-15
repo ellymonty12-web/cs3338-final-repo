@@ -10,4 +10,4 @@ Jira Board:
 https://ellymonty12.atlassian.net/jira/software/projects/CS38/boards/36
 
 Disclaimer:
-This repository is only a practice simulation for a final project. It is based on the senior design project Want2Remember. This repository is not affiliated with the original project, original design team, Want2Remember, We2Link, or any related organization. No actual application is being developed here.
+This repository is only a practice simulation for a final project. It is based on the senior design project Want2Remember. This repository is not affiliated with the original project, original design team, Want2Remember, We2Link, or any related organization. No actual application is being developed or distributed here.

@@ -1,0 +1,71 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{hyperref}
+
+\title{Software Design Document\\Final Project}
+\author{Elvis Montiel, David Montiel, Steven Mayorquin, Vincent Lozano}
+\date{Snapshot 2}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+
+\section{Revision History}
+\begin{longtable}{|p{2cm}|p{3cm}|p{8cm}|}
+\hline
+Version & Date & Description \\ \hline
+1.0 & Snapshot 1 & Initial design document for the simulated project. \\ \hline
+2.0 & Snapshot 2 & Added simulated memory creation and memory template design. \\ \hline
+\end{longtable}
+
+\section{Introduction}
+\subsection{Purpose}
+This document describes the simulated design of the final project for this course. The purpose of the simulated system is to organize memories, reminders, contacts, and daily information for users who need memory support.
+
+\subsection{Intended Audience}
+The intended audience includes the professor for this course and group members for this project.
+
+\subsection{System Overview}
+The simulated system contains a frontend interface, a mobile interface, Firebase-style authentication and storage, and documentation explaining how the system would be developed.
+
+\section{System Architecture}
+The planned architecture contains a React frontend, a React Native mobile interface, Firebase Authentication, and cloud storage.
+
+\section{User Interface}
+The initial simulated interface includes a home page, login page, memory list page, create memory page, contacts page, and search page.
+
+\section{Database Explanation}
+The simulated database stores users, memories, contacts, templates, reminders, and account settings.
+
+\section{Snapshot 2 Design Update: Memory Creation and Templates}
+
+Snapshot 2 adds a simulated memory creation feature. The purpose of this feature is to allow users to create structured memory entries that can store important information such as appointments, contacts, medication notes, tasks, reminders, passwords, and custom notes.
+
+\subsection{Memory Creation Workflow}
+
+The simulated memory creation workflow begins when the user opens the application and logs in. From the home dashboard, the user selects the option to create a new memory. The system then presents template choices. After selecting a template, the user fills in the required fields and saves the memory. The memory would then be stored in the simulated Firebase or Firestore-style database.
+
+\subsection{Memory Templates}
+
+The planned memory templates include simple memory, appointment, medication, task, contact-related memory, password entry, and custom note. These templates help organize information in a consistent way and make the application easier to use for users who need memory support.
+
+\subsection{Updated Architecture}
+
+The architecture now includes a Create Memory page and a Template Selection step between the user dashboard and the simulated database. The frontend or mobile interface sends the completed memory form to the backend storage service.
+
+\section{Glossary}
+\begin{longtable}{|p{3cm}|p{10cm}|}
+\hline
+Term & Meaning \\ \hline
+SDD & Software Design Document \\ \hline
+SRS & Software Requirements Specification \\ \hline
+UI & User Interface \\ \hline
+Firebase & Simulated cloud backend and database service \\ \hline
+\end{longtable}
+
+\section{References}
+Want2Remember senior design materials provided for class simulation.
+
+\end{document}

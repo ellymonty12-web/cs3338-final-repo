@@ -3,7 +3,7 @@
 
 \title{Design Specification\\Final Project}
 \author{Elvis Montiel, David Montiel, Steven Mayorquin, Vincent Lozano}
-\date{Snapshot 1}
+\date{Snapshot 2}
 
 \begin{document}
 \maketitle
@@ -25,6 +25,8 @@ Memory List Page & Displays saved memories. \\ \hline
 Create Memory Page & Allows a user to create a new memory entry. \\ \hline
 Contacts Page & Displays contacts connected to memories. \\ \hline
 Search Page & Allows the user to search stored information. \\ \hline
+Template Selection Page & Allows the user to choose a structured memory template. \\ \hline
+Create Memory Page & Allows the user to enter and save memory information. \\ \hline
 \end{longtable}
 
 \section{Tool Breakdown}
@@ -50,5 +52,30 @@ The Docker Compose file defines a planned frontend service and a planned Firebas
 \section{Data Design}
 
 The simulated system may store users, memories, contacts, templates, reminders, and account settings.
+
+\section{Snapshot 2 Design Update: Memory Creation Feature}
+
+Snapshot 2 adds the simulated design for memory creation and memory templates.
+
+\subsection{Create Memory Page}
+
+The Create Memory page allows the user to begin creating a new memory entry. The page would include a title field, category selection, date field, notes field, and save button.
+
+\subsection{Template Selection Page}
+
+The Template Selection page allows the user to choose what type of memory they want to create. Planned templates include appointment, medication, task, contact-related memory, password entry, and custom note.
+
+\subsection{Memory Template Fields}
+
+\begin{longtable}{|p{4cm}|p{9cm}|}
+\hline
+Template & Planned Fields \\ \hline
+Appointment & Title, date, time, location, notes \\ \hline
+Medication & Medication name, dosage, time, instructions \\ \hline
+Task & Task title, due date, priority, notes \\ \hline
+Contact Memory & Contact name, relationship, phone number, notes \\ \hline
+Password Entry & Account name, username, password hint, notes \\ \hline
+Custom Note & Title, category, notes \\ \hline
+\end{longtable}
 
 \end{document}

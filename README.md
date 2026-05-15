@@ -28,6 +28,17 @@ GitHub repository: https://github.com/ellymonty12-web/cs3338-final-repo.git
 ## Snapshot History
 
 - Snapshot 1: Initial planning and basic setup
-- Snapshot 2: Memory template feature
+- Snapshot 2: Memory creation and memory template feature
 - Snapshot 3: Contacts and search feature
 - Snapshot 4: Final documentation, testing, and future work
+
+### Snapshot 2: Checkpoint 1
+
+- Plan memory creation workflow
+- Plan memory template selection
+- Update SRS with new memory creation requirements
+- Update SDD with memory creation design
+- Update Design Spec with memory-related pages
+- Update User Manual with memory creation instructions
+- Create Snapshot 2 Jira tasks and bugs
+- Create Snapshot 2 TestRail report
