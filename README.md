@@ -1,4 +1,5 @@
 # Final Project
+**By: Elvis Montiel, David Montiel, Steven Mayorquin, Vincent Lozano**
 
 ## Disclaimer
 
